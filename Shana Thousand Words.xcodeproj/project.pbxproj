@@ -22,6 +22,17 @@
 		04ED3CB818525DAD006589AB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ED3C9C18525DAD006589AB /* CoreData.framework */; };
 		04ED3CC018525DAD006589AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04ED3CBE18525DAD006589AB /* InfoPlist.strings */; };
 		04ED3CC218525DAD006589AB /* Shana_Thousand_WordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ED3CC118525DAD006589AB /* Shana_Thousand_WordsTests.m */; };
+		04ED3CCC185268AB006589AB /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ED3CCB185268AB006589AB /* Storyboard.storyboard */; };
+		04ED3CCF1852694F006589AB /* STWAlbumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ED3CCE1852694F006589AB /* STWAlbumTableViewController.m */; };
+		04ED3CD51852CCAC006589AB /* STWCoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ED3CD41852CCAC006589AB /* STWCoreDataHelper.m */; };
+		04ED3CD81852D1D0006589AB /* STWPhotosCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ED3CD71852D1D0006589AB /* STWPhotosCollectionViewController.m */; };
+		04ED3CDB1852D4AF006589AB /* STWPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ED3CDA1852D4AF006589AB /* STWPhotoCollectionViewCell.m */; };
+		04ED3CDD1852D923006589AB /* Astronaut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04ED3CDC1852D923006589AB /* Astronaut.jpg */; };
+		04ED3CE1185365BF006589AB /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ED3CE0185365BF006589AB /* Album.m */; };
+		04ED3CE4185365C0006589AB /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ED3CE3185365C0006589AB /* Photo.m */; };
+		04ED3CE7185366C1006589AB /* STWPictureDataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ED3CE6185366C1006589AB /* STWPictureDataTransformer.m */; };
+		04ED3CEA1853759B006589AB /* STWPhotoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ED3CE91853759B006589AB /* STWPhotoDetailViewController.m */; };
+		04ED3CED1853893E006589AB /* STWFiltersCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ED3CEC1853893E006589AB /* STWFiltersCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,26 @@
 		04ED3CBD18525DAD006589AB /* Shana Thousand WordsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Shana Thousand WordsTests-Info.plist"; sourceTree = "<group>"; };
 		04ED3CBF18525DAD006589AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04ED3CC118525DAD006589AB /* Shana_Thousand_WordsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shana_Thousand_WordsTests.m; sourceTree = "<group>"; };
+		04ED3CCB185268AB006589AB /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		04ED3CCD1852694F006589AB /* STWAlbumTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STWAlbumTableViewController.h; sourceTree = "<group>"; };
+		04ED3CCE1852694F006589AB /* STWAlbumTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STWAlbumTableViewController.m; sourceTree = "<group>"; };
+		04ED3CD31852CCAC006589AB /* STWCoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STWCoreDataHelper.h; sourceTree = "<group>"; };
+		04ED3CD41852CCAC006589AB /* STWCoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STWCoreDataHelper.m; sourceTree = "<group>"; };
+		04ED3CD61852D1D0006589AB /* STWPhotosCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STWPhotosCollectionViewController.h; sourceTree = "<group>"; };
+		04ED3CD71852D1D0006589AB /* STWPhotosCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STWPhotosCollectionViewController.m; sourceTree = "<group>"; };
+		04ED3CD91852D4AF006589AB /* STWPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STWPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		04ED3CDA1852D4AF006589AB /* STWPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STWPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		04ED3CDC1852D923006589AB /* Astronaut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Astronaut.jpg; sourceTree = "<group>"; };
+		04ED3CDF185365BF006589AB /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Album.h; path = ../Album.h; sourceTree = "<group>"; };
+		04ED3CE0185365BF006589AB /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Album.m; path = ../Album.m; sourceTree = "<group>"; };
+		04ED3CE2185365C0006589AB /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Photo.h; path = ../Photo.h; sourceTree = "<group>"; };
+		04ED3CE3185365C0006589AB /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Photo.m; path = ../Photo.m; sourceTree = "<group>"; };
+		04ED3CE5185366C1006589AB /* STWPictureDataTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STWPictureDataTransformer.h; sourceTree = "<group>"; };
+		04ED3CE6185366C1006589AB /* STWPictureDataTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STWPictureDataTransformer.m; sourceTree = "<group>"; };
+		04ED3CE81853759B006589AB /* STWPhotoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STWPhotoDetailViewController.h; sourceTree = "<group>"; };
+		04ED3CE91853759B006589AB /* STWPhotoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STWPhotoDetailViewController.m; sourceTree = "<group>"; };
+		04ED3CEB1853893E006589AB /* STWFiltersCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STWFiltersCollectionViewController.h; sourceTree = "<group>"; };
+		04ED3CEC1853893E006589AB /* STWFiltersCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STWFiltersCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +148,21 @@
 			children = (
 				04ED3CA718525DAD006589AB /* STWAppDelegate.h */,
 				04ED3CA818525DAD006589AB /* STWAppDelegate.m */,
+				04ED3CCB185268AB006589AB /* Storyboard.storyboard */,
+				04ED3CEB1853893E006589AB /* STWFiltersCollectionViewController.h */,
+				04ED3CEC1853893E006589AB /* STWFiltersCollectionViewController.m */,
+				04ED3CE81853759B006589AB /* STWPhotoDetailViewController.h */,
+				04ED3CE91853759B006589AB /* STWPhotoDetailViewController.m */,
+				04ED3CD61852D1D0006589AB /* STWPhotosCollectionViewController.h */,
+				04ED3CD71852D1D0006589AB /* STWPhotosCollectionViewController.m */,
+				04ED3CD91852D4AF006589AB /* STWPhotoCollectionViewCell.h */,
+				04ED3CDA1852D4AF006589AB /* STWPhotoCollectionViewCell.m */,
+				04ED3CCD1852694F006589AB /* STWAlbumTableViewController.h */,
+				04ED3CCE1852694F006589AB /* STWAlbumTableViewController.m */,
+				04ED3CD31852CCAC006589AB /* STWCoreDataHelper.h */,
+				04ED3CD41852CCAC006589AB /* STWCoreDataHelper.m */,
 				04ED3CAD18525DAD006589AB /* Images.xcassets */,
-				04ED3CAA18525DAD006589AB /* Shana_Thousand_Words.xcdatamodeld */,
+				04ED3CDE18536564006589AB /* CoreData */,
 				04ED3C9F18525DAD006589AB /* Supporting Files */,
 			);
 			path = "Shana Thousand Words";
@@ -127,6 +171,7 @@
 		04ED3C9F18525DAD006589AB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04ED3CDC1852D923006589AB /* Astronaut.jpg */,
 				04ED3CA018525DAD006589AB /* Shana Thousand Words-Info.plist */,
 				04ED3CA118525DAD006589AB /* InfoPlist.strings */,
 				04ED3CA418525DAD006589AB /* main.m */,
@@ -151,6 +196,20 @@
 				04ED3CBE18525DAD006589AB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04ED3CDE18536564006589AB /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				04ED3CE2185365C0006589AB /* Photo.h */,
+				04ED3CE3185365C0006589AB /* Photo.m */,
+				04ED3CDF185365BF006589AB /* Album.h */,
+				04ED3CE0185365BF006589AB /* Album.m */,
+				04ED3CAA18525DAD006589AB /* Shana_Thousand_Words.xcdatamodeld */,
+				04ED3CE5185366C1006589AB /* STWPictureDataTransformer.h */,
+				04ED3CE6185366C1006589AB /* STWPictureDataTransformer.m */,
+			);
+			name = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +289,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				04ED3CA318525DAD006589AB /* InfoPlist.strings in Resources */,
+				04ED3CDD1852D923006589AB /* Astronaut.jpg in Resources */,
 				04ED3CAE18525DAD006589AB /* Images.xcassets in Resources */,
+				04ED3CCC185268AB006589AB /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +311,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				04ED3CA518525DAD006589AB /* main.m in Sources */,
+				04ED3CD51852CCAC006589AB /* STWCoreDataHelper.m in Sources */,
+				04ED3CEA1853759B006589AB /* STWPhotoDetailViewController.m in Sources */,
 				04ED3CAC18525DAD006589AB /* Shana_Thousand_Words.xcdatamodeld in Sources */,
+				04ED3CCF1852694F006589AB /* STWAlbumTableViewController.m in Sources */,
+				04ED3CED1853893E006589AB /* STWFiltersCollectionViewController.m in Sources */,
+				04ED3CD81852D1D0006589AB /* STWPhotosCollectionViewController.m in Sources */,
+				04ED3CE1185365BF006589AB /* Album.m in Sources */,
+				04ED3CDB1852D4AF006589AB /* STWPhotoCollectionViewCell.m in Sources */,
+				04ED3CE4185365C0006589AB /* Photo.m in Sources */,
 				04ED3CA918525DAD006589AB /* STWAppDelegate.m in Sources */,
+				04ED3CE7185366C1006589AB /* STWPictureDataTransformer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +443,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Shana Thousand Words/Shana Thousand Words-Prefix.pch";
 				INFOPLIST_FILE = "Shana Thousand Words/Shana Thousand Words-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -386,6 +457,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Shana Thousand Words/Shana Thousand Words-Prefix.pch";
 				INFOPLIST_FILE = "Shana Thousand Words/Shana Thousand Words-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -452,6 +524,7 @@
 				04ED3CC718525DAD006589AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04ED3CC818525DAD006589AB /* Build configuration list for PBXNativeTarget "Shana Thousand WordsTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +533,7 @@
 				04ED3CCA18525DAD006589AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
