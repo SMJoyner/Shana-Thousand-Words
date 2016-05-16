@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Photos Collection View Controller-->
@@ -96,8 +97,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BSR-XQ-Nz3">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="496"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BSR-XQ-Nz3">
+                                <rect key="frame" x="0.0" y="64" width="320" height="432"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XT7-l5-gPX">
                                 <rect key="frame" x="20" y="518" width="67" height="30"/>
@@ -121,7 +122,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="BSR-XQ-Nz3" firstAttribute="top" secondItem="9n7-JD-lAz" secondAttribute="bottom" id="DYJ-aY-NlE"/>
+                            <constraint firstItem="XT7-l5-gPX" firstAttribute="top" secondItem="BSR-XQ-Nz3" secondAttribute="bottom" constant="22" id="DpK-7H-Bup"/>
                             <constraint firstItem="qGu-1I-Wih" firstAttribute="top" secondItem="BSR-XQ-Nz3" secondAttribute="bottom" constant="22" id="Q7n-Ql-hQB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="BSR-XQ-Nz3" secondAttribute="trailing" id="T5s-ta-wfL"/>
+                            <constraint firstItem="BSR-XQ-Nz3" firstAttribute="leading" secondItem="tmf-4T-d3C" secondAttribute="leadingMargin" id="mne-xZ-9l9"/>
                             <constraint firstItem="lVj-Oi-Dpl" firstAttribute="top" secondItem="qGu-1I-Wih" secondAttribute="bottom" constant="20" id="qrO-ON-k2k"/>
                             <constraint firstItem="lVj-Oi-Dpl" firstAttribute="top" secondItem="XT7-l5-gPX" secondAttribute="bottom" constant="20" id="yn6-Lk-w05"/>
                         </constraints>
